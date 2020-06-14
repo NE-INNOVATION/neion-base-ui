@@ -11,7 +11,6 @@ import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 // Feature Modules
 import { CommonService } from './services/common.service';
-import { CustomerService } from './services/customer.service';
 import { NavigationComponent } from './navigation/navigation.component';
 
 //store
@@ -37,7 +36,7 @@ import { EffectsModule } from '@ngrx/effects';
     StoreDevtoolsModule.instrument({ maxAge: 25, logOnly: environment.production }),
     EffectsModule.forRoot([])
   ],
-  providers: [CommonService, CustomerService],
+  providers: [CommonService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
