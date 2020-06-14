@@ -10,11 +10,6 @@ import { MatButtonModule } from '@angular/material/button';
 import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 // Feature Modules
-import { CustomerInformationModule } from './customer-information/customer-information.module';
-import { VehicleInformationModule } from './vehicle-information/vehicle-information.module';
-import { DriverInformationModule } from './driver-information/driver-information.module';
-import { IncidentInformationModule } from './incident-information/incident-information.module';
-import { RateIssueModule } from './rate-issue/rate-issue.module';
 import { CommonService } from './services/common.service';
 import { CustomerService } from './services/customer.service';
 import { NavigationComponent } from './navigation/navigation.component';
@@ -35,11 +30,6 @@ import { EffectsModule } from '@ngrx/effects';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    CustomerInformationModule,
-    VehicleInformationModule,
-    DriverInformationModule,
-    IncidentInformationModule,
-    RateIssueModule,
     MatMenuModule,
     MatButtonModule,
     MatButtonToggleModule,
